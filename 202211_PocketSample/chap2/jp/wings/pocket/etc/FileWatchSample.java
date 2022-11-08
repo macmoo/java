@@ -1,4 +1,4 @@
-package jp.wings.pocket;
+package jp.wings.pocket.etc;
 
 import java.io.IOException;
 import java.nio.file.FileSystems;

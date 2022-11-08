@@ -1,4 +1,4 @@
-package jp.wings.pocket.chap5;
+
 
 import java.nio.CharBuffer;
 

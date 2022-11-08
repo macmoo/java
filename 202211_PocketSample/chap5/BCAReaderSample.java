@@ -1,4 +1,4 @@
-package jp.wings.pocket.chap5;
+
 
 import java.io.CharArrayReader;
 import java.io.IOException;

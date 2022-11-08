@@ -1,4 +1,4 @@
-package jp.wings.pocket;
+package jp.wings.pocket.etc;
 
 import java.time.LocalDate;
 import java.time.Period;
