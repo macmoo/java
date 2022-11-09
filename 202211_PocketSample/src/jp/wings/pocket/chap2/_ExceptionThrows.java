@@ -1,7 +1,7 @@
 package jp.wings.pocket.chap2;
 import java.io.*;
 
-public class ExceptionThrows{
+public class _ExceptionThrows{
 
 	static  void methodSample() throws FileNotFoundException {
 		FileReader exFile = new FileReader("aaaa.txt");

@@ -1,6 +1,6 @@
 package jp.wings.pocket.chap2;
 
-public class GenericWildSample {
+public class _GenericWildSample {
 
 	public static void main(String[] args) {
 		GenericClass<Number> gc_number = new GenericClass<Number>();
@@ -15,9 +15,10 @@ public class GenericWildSample {
 		GenericClass<Integer> gc3 = new GenericClass<>();
 		gc3.setValue(123);
 		gc2 = gc3;		    // Number型か、そのサブクラスなら代入OK
+		// Integer는 Number의 서브클래스
 
 		// gc2.getValue()の戻り値は、Numberかそのサブクラスが保証されるので、
 		// コンパイルエラーにはならない
-		System.out.println(gc2.getValue().intValue());
+		System.out.println(gc2.getValue().intValue()); // 123
 	}
 }

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class LambdaSample {
+public class _LambdaSample {
 
 	public static void main(String[] args) {
 		// Runnableインターフェイスのラムダ式による実装
@@ -12,11 +12,11 @@ public class LambdaSample {
 			List<Integer> list = Arrays.asList(4, 0, 8, 2, -5);
 
 			Collections.sort(list,
-					// Comparatorインターフェイスのラムダ式による実装
-					(o1, o2) -> {
-				return Integer.compare(o1, o2);
-			// (o1, o2) -> Integer.compare(o1, o2) でも可
-					}
+				// Comparatorインターフェイスのラムダ式による実装
+				(o1, o2) -> {
+					return Integer.compare(o1, o2);
+					// (o1, o2) -> Integer.compare(o1, o2) でも可
+				}
 			);
 			// メソッド参照
 			// Collections.sort(list, Integer::compare);

@@ -3,7 +3,7 @@ package jp.wings.pocket.chap2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenericDiamondSample {
+public class _GenericDiamondSample {
 
 	public static  <E> List<E> MyArrayList(){
 	    return new ArrayList<E>();

@@ -18,7 +18,7 @@ class GenericClass<T> {
 	// public static void getValue2(T val){}
 	// static T value2;
 }
-public class GenericSample {
+public class _GenericSample {
 	public static void main(String[] args) {
 		// IntegerクラスのGenericClass 
 		GenericClass<Integer>  gc1 = new GenericClass<Integer>();

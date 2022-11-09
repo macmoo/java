@@ -28,7 +28,7 @@ import java.lang.annotation.Target;;
 @StringAnnotation(value = "str1")
 @StringAnnotation(value = "str2")
 @Version(0.1)
-public class AnnotationSample2 {
+public class _AnnotationSample2 {
 
 	@Debug
 	public void disp() {
@@ -36,14 +36,15 @@ public class AnnotationSample2 {
 	public static void main(String[] args) throws SecurityException, NoSuchMethodException {
 
 		// Versionアノテーションを取得
-		Version v = AnnotationSample2.class.getAnnotation(Version.class);
+		Version v = _AnnotationSample2.class.getAnnotation(Version.class);
 		// バージョン表示
 		System.out.println( v.value() );
 
 		// Debugアノテーションを取得
-		Debug d = AnnotationSample2.class.getMethod("disp").getAnnotation(Debug.class);
+		Debug d = _AnnotationSample2.class.getMethod("disp").getAnnotation(Debug.class);
 		if ( d != null ) {
 			System.out.println( "debug!" );
+			System.out.println( d );
 		}
 
 	}

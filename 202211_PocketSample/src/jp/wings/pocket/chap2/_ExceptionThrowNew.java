@@ -1,6 +1,6 @@
 package jp.wings.pocket.chap2;
 
-public class ExceptionThrowNew {
+public class _ExceptionThrowNew {
 
 	// throwsで、IllegalAccessException例外を指定
 	static void throwSample() throws IllegalAccessException {

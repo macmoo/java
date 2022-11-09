@@ -11,7 +11,7 @@ class NumberExtends<T extends Number> {
 		return this.value.intValue();
 	}
 }
-public class GenericBoundedSample {
+public class _GenericBoundedSample {
 	public static void main(String[] args) {
 		NumberExtends<Float> f = new NumberExtends<Float>();
 		f.setValue(1.23F);

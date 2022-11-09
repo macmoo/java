@@ -2,12 +2,13 @@ package jp.wings.pocket.chap2;
 
 import java.util.function.DoubleBinaryOperator;
 
-public class FunctionalInterfaceSample {
+public class _FunctionalInterfaceSample {
 
 	@FunctionalInterface
 	interface BMI {
 		//  2つのdoubleの引数、doubleの戻り値の仮想メソッド
 		double calc(double w, double h);
+		//	double calc(double w, double h, double q); // error
 	}
 
 	public static void main(String[] args) {
