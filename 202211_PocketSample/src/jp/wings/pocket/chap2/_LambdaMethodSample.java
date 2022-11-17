@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class LambdaMethodSample {
+public class _LambdaMethodSample {
 	static class MultiValue {
 		int v;
 		MultiValue(String _v){
@@ -19,8 +19,7 @@ public class LambdaMethodSample {
 		List<String> list = Arrays.asList("123", "7", "-2");
 
 		// StringからMultiValueオブジェクトのStreamに変換
-		Stream<MultiValue> m =
-		  list.stream().map(MultiValue::new); // コンストラクタ参照
+		Stream<MultiValue> m = list.stream().map(MultiValue::new); // コンストラクタ参照
 
 		m.forEach(System.out::println);   // メソッド参照
 		// m.forEach(s -> System.out.println(s))と同義
